@@ -146,3 +146,7 @@ hr.page-break {
   &:before { content: '-----' }
   &:after { content: attr(data-content) '-----' }
 }
+
+p { margin: 1em 0; }
+
+li { margin: 0.4em 0; }
