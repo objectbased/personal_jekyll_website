@@ -6,3 +6,8 @@ theme_config:
   
   home:
     title_projects: Projects
+    
+sass:
+  style: :compressed
+    
+highlighter: rouge
