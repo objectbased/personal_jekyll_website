@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}" class="html" data-theme="dark">
+        {%- include head.html -%}
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="project_container">
+        {{ content }}
+        <div class="credits">
+          &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
