@@ -5,12 +5,12 @@ html { height: 100%; }
 
 header {
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  animation: fadeInAnimation ease 3s;
+  animation: logo_fade_in ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-@keyframes fadeInAnimation {
+@keyframes logo_fade_in {
   0% {
       opacity: 0;
   }
@@ -222,7 +222,7 @@ ul.horizontal-list {
   gap: 45px;
 }
 
-.skills img {
+.skills imgz {
   display:inline;
   margin-right: 1em;
 }
@@ -235,6 +235,20 @@ ul.horizontal-list {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+
+.item img {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.item{
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid black;
 }
 
 
