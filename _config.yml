@@ -1,5 +1,7 @@
 title: objectbased
 author: objectbased
+description: testing details here
+
 theme_config:
   show_projects: true
   home:
