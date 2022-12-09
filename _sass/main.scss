@@ -202,10 +202,16 @@ ul.horizontal-list {
   }
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+}
 
-
-
-
+.skills img {
+  display:inline;
+  margin-right: 1em;
+}
 
 
 
