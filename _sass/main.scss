@@ -215,6 +215,15 @@ ul.horizontal-list {
   margin-right: 1em;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
