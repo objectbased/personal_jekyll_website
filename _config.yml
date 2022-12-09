@@ -1,9 +1,10 @@
 title: objectbased
 author: objectbased
-description: testing details here1
+description: Software development and automation with a focus on Security
 
 theme_config:
   show_projects: true
   home:
     title_projects: Projects
+    title_skill: Technologies
     
