@@ -6,27 +6,27 @@ project_entries:
 
   - title: Project 2
     url: overview-post
-    tag: 2
+    tag: bash
     desc: Projects are shown in card layout
 
   - title: Project 3
     url: overview-post
-    tag: 3
+    tag: splunk
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
     url: overview-post
-    tag: 4
+    tag: aws
     desc: This project uses highlight markup, configured in _data/home.yml
     highlight: WIP
 
   - title: Project 5
     url: overview-post
-    tag: 5
+    tag: terraform
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
   - title: Project 6
     url: overview-post
-    tag: 6
+    tag: ansible
     desc: It also has a scalable vertical list (in case you need it)
