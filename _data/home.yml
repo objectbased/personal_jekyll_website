@@ -4,10 +4,10 @@ project_entries:
     tag: splunk
     desc: Powershell script that provides the ability to download various Splunk Universal Forwarder packages...
 
-  - title: Project 2
-    url: overview-post
-    tag: bash
-    desc: Projects are shown in card layout
+  - title: ThreatAPIs
+    url: https://github.com/objectbased/ThreatAPIs
+    tag: python
+    desc: This Python script makes HTTP requests to multiple open source threat intelligence blocklists...
 
   - title: Project 3
     url: overview-post
