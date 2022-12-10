@@ -27,37 +27,3 @@ togglePython.addEventListener('click', () => {
   }
   }
 });
-
-//Bash
-toggleBash.addEventListener('click', () => {
-  if(event.target.style.backgroundColor == 'blue') {
-    event.target.style.backgroundColor = 'black';
-  } else {
-    event.target.style.backgroundColor = 'blue';
-  }
-  for (var i = 0; i < BashArrayLength; i++) {
-    console.log(BashDivList[i]);
-    if(BashDivList[i].style.display == 'none') {
-      BashDivList[i].style.display = 'block';
-    } else {
-      BashDivList[i].style.display = 'none'
-  }
-  }
-});
-
-//Ansible
-toggleAnsible.addEventListener('click', () => {
-  if(event.target.style.backgroundColor == 'blue') {
-    event.target.style.backgroundColor = 'black';
-  } else {
-    event.target.style.backgroundColor = 'blue';
-  }
-  for (var i = 0; i < AnsibleArrayLength; i++) {
-    console.log(AnsibleDivList[i]);
-    if(AnsibleDivList[i].style.display == 'none') {
-      AnsibleDivList[i].style.display = 'block';
-    } else {
-      AnsibleDivList[i].style.display = 'none'
-  }
-  }
-});
