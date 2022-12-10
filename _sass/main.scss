@@ -249,6 +249,19 @@ ul.horizontal-list {
   width: 60px;
   height: 60px;
   text-align: center;
+  animation: skills_fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition-delay: 3s;
+}
+
+@keyframes skills_fade {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
 
 .item {
