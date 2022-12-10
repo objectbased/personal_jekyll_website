@@ -4,10 +4,10 @@ var arrayLength = divList.length;
 
 
 togglePython.addEventListener('click', () => {
-  if(event.target.style.backgroundColor == 'red') {
+  if(event.target.style.backgroundColor == 'blue') {
     event.target.style.backgroundColor = 'black';
   } else {
-    event.target.style.backgroundColor = 'red';
+    event.target.style.backgroundColor = 'blue';
   }
   for (var i = 0; i < arrayLength; i++) {
     console.log(divList[i]);
