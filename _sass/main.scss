@@ -48,7 +48,7 @@ p { margin: 1em 0; }
 li { margin: 0.4em 0; }
 
 .container {
-  max-width: 720px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 4em 2em;
 }
@@ -220,6 +220,7 @@ ul.horizontal-list {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
+  text-align: center;
 }
 
 //.skills imgz {
