@@ -1,15 +1,6 @@
 const togglePython = document.querySelector('#python')
-const PythonDivList = document.querySelectorAll(`[id^="splunk"], [id^="ansible"], [id^="aws"], [id^="bash"], [id^="terraform"], [id^="github"]`)
-var PythonArrayLength = PythonDivList.length;
-
-const toggleBash = document.querySelector('#bash')
-const BashDivList = document.querySelectorAll(`[id^="splunk"], [id^="ansible"], [id^="aws"], [id^="python"], [id^="terraform"], [id^="github"]`)
-var BashArrayLength = BashDivList.length;
-
-const toggleAnsible = document.querySelector('#ansible')
-const AnsibleDivList = document.querySelectorAll(`[id^="splunk"], [id^="bash"], [id^="aws"], [id^="python"], [id^="terraform"], [id^="github"]`)
-var AnsibleArrayLength = AnsibleDivList.length;
-
+const divList = document.querySelectorAll(`[id^="splunk"], [id^="ansible"], [id^="aws"], [id^="bash"], [id^="terraform"]`)
+var arrayLength = divList.length;
 
 // Python
 togglePython.addEventListener('click', () => {
@@ -18,12 +9,12 @@ togglePython.addEventListener('click', () => {
   } else {
     event.target.style.backgroundColor = 'blue';
   }
-  for (var i = 0; i < PythonArrayLength; i++) {
-    console.log(PythonDivList[i]);
-    if(PythonDivList[i].style.display == 'none') {
-      PythonDivList[i].style.display = 'block';
+  for (var i = 0; i < arrayLength; i++) {
+    console.log(divList[i]);
+    if(divList[i].style.display == 'none') {
+      divList[i].style.display = 'block';
     } else {
-      PythonDivList[i].style.display = 'none'
+      divList[i].style.display = 'none'
   }
   }
 });
