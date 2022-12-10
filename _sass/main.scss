@@ -219,7 +219,7 @@ ul.horizontal-list {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 45px;
+  gap: 60px;
 }
 
 //.skills imgz {
@@ -236,6 +236,11 @@ ul.horizontal-list {
   justify-content: center;
   align-items: center;
   border: 1px solid white;
+}
+
+.logo img {
+  width: 220px;
+  height: 200px;
 }
 
 
