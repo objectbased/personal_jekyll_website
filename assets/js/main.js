@@ -1,5 +1,5 @@
 const togglePython = document.querySelector('.toggle')
-const divList = document.querySelectorAll('#splunk, #test')
+const divList = document.querySelectorAll(`[id^="splunk"], [id^="ansible"], [id^="aws"], [id^="bash"], [id^="terraform"]`)
 var arrayLength = divList.length;
 
 
@@ -17,5 +17,4 @@ togglePython.addEventListener('click', () => {
       divList[i].style.display = 'none'
   }
   }
-  
 });
