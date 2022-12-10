@@ -1,5 +1,5 @@
 const togglePython = document.querySelector('.toggle')
-const divList = document.querySelectorAll("#splunk")
+const divList = document.querySelectorAll("#splunk, #test")
 var arrayLength = divList.length;
 
 
