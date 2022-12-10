@@ -1,4 +1,4 @@
-const togglePython = document.querySelector('#python')
+const togglePython = document.querySelector('#skill_python')
 const divList = document.querySelectorAll(`[id^="splunk"], [id^="ansible"], [id^="aws"], [id^="bash"], [id^="terraform"]`)
 var arrayLength = divList.length;
 
