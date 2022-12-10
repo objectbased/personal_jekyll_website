@@ -221,6 +221,11 @@ ul.horizontal-list {
   flex-wrap: wrap;
   gap: 60px;
   text-align: center;
+  animation: skills_fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0;
 }
 
 //.skills imgz {
@@ -249,11 +254,6 @@ ul.horizontal-list {
   width: 60px;
   height: 60px;
   text-align: center;
-  animation: skills_fade ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: .5s;
-  opacity: 0;
 }
 
 @keyframes skills_fade {
