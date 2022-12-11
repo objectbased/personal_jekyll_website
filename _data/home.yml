@@ -9,16 +9,15 @@ project_entries:
     tag: python
     desc: This Python script makes HTTP requests to multiple open source threat intelligence blocklists...
 
-  - title: Project 3
-    url: overview-post
-    tag: splunk
-    desc: You can control visibility from _config.yml file
+  - title: Splunk Nix Installer
+    url: https://github.com/objectbased/splunkufnixinstaller
+    tag: splunk bash
+    desc: Bash script for downloading and installing the Splunk Universal Forwrader on a NIX host
 
-  - title: Project 4
-    url: overview-post
-    tag: aws
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: ARIN Whois
+    url: https://github.com/objectbased/whois
+    tag: python
+    desc: Python Code for using ARIN’s Whois RESTful web service to pull network and organization records.
 
   - title: Project 5
     url: overview-post
