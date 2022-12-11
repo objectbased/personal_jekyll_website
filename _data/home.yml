@@ -23,7 +23,6 @@ project_entries:
     url: overview-post
     tag: terraform
     desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
 
   - title: Overwatch
     url: overview-post
