@@ -156,12 +156,29 @@ p code, li code {
   }
 }
 
+animation: skills_fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0;
+}
+
+
+
+
+
+
 ul.horizontal-list {
   display: flex;
   //justify-content: space-between;
   margin-top: 0em;
   margin-left: -40px;
   flex-wrap: wrap;
+  animation: projects_fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0;
 
   li {
     display:inline;
@@ -173,6 +190,15 @@ ul.horizontal-list {
     font-weight: normal
   }
 
+}
+
+@keyframes projects_fade {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
 
 .card {
@@ -403,4 +429,21 @@ ul.horizontal-list {
 
 .show {
   display: block !important;
+}
+
+.projects {
+  animation: projects_title_fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0;
+}
+
+@keyframes projects_title_fade {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
