@@ -41,3 +41,8 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
