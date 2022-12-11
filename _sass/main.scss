@@ -204,7 +204,7 @@ ul.horizontal-list {
   display: none !important;
 
   .card:hover {
-    transform: translateY(-2px);
+    transform: translateY(-2px) !important;
   }
 
   .header {
