@@ -41,15 +41,3 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-
-// Scroll to top of page on refresh
-if (history.scrollRestoration) {
-    history.scrollRestoration = 'manual';
-} else {
-    window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-    }
-}
-
-const header = document.getElementsByClassName("logo");
-header.scrollIntoView();
