@@ -22,7 +22,7 @@ const toggleTerraform = document.querySelector('#skill_terraform')
 const TerraformProjectList = document.querySelectorAll(`[id^="splunk"], [id^="ansible"], [id^="aws"], [id^="bash"], [id^="python"], [id^="github"]`)
 var TerraformProjectListLength = TerraformProjectList.length;
 
-const toggleSplunk = document.querySelector('#skill_splunk')
+const toggleSplunk = document.querySelector('#skill_splunktest')
 const SplunkProjectList = document.querySelectorAll(`[id^="python"], [id^="ansible"], [id^="aws"], [id^="bash"], [id^="terraform"], [id^="github"]`)
 var SplunkProjectListLength = SplunkProjectList.length;
 
