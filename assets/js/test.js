@@ -43,7 +43,5 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 // Scroll to top of page on refresh
-history.scrollRestoration = "manual";
-$(window).on('beforeunload', function() {
-    $(window).scrollTop(0);
-});
+document.documentElement.scrollTop = 0;
+document.body.scrollTop = 0;
