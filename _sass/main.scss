@@ -186,6 +186,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   margin-bottom: 0.8em;
   border-radius: 0.5em;
+  display: none;
 
   .header {
     color: var(--links);
@@ -205,7 +206,7 @@ ul.horizontal-list {
 @media screen and (max-width: 600px) {
   ul.horizontal-list li.card {
     width: 100%;
-    display: block;
+    display: none;
     margin-bottom: 1em;
     margin-left: 1em;
     a, .header {
