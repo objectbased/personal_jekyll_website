@@ -434,6 +434,23 @@ ul.horizontal-list {
    }
 }
 
+footer {
+  animation: footer_fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+@keyframes footer_fade {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
 .card:hover {
   transform: translateY(-4px) !important;
 }
