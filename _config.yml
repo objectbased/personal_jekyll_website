@@ -4,6 +4,7 @@ author: objectbased
 
 theme_config:
   show_projects: true
+  show_footer: true
   home:
     title_projects: Projects
     title_skill: Technologies
