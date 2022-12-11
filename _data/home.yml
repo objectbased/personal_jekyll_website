@@ -2,17 +2,17 @@ project_entries:
   - title: SplunkPSTool
     url: https://github.com/objectbased/splunkpstool
     tag: splunk
-    desc: Powershell script that provides the ability to download various Splunk Universal Forwarder packages...
+    desc: Powershell script that provides the ability to download various Splunk Universal Forwarder packages along with the ability to locally install on a local machine.
 
   - title: ThreatAPIs
     url: https://github.com/objectbased/ThreatAPIs
     tag: python
-    desc: This Python script makes HTTP requests to multiple open source threat intelligence blocklists...
+    desc: This Python script makes HTTP requests to multiple open source threat intelligence blocklists and aggregates the details together into dictionary objects for further searching.
 
   - title: Splunk Nix Installer
     url: https://github.com/objectbased/splunkufnixinstaller
     tag: splunk bash
-    desc: Bash script for downloading and installing the Splunk Universal Forwrader on a NIX host
+    desc: Bash script for downloading and installing the Splunk Universal Forwrader on a NIX host.
 
   - title: ARIN Whois
     url: https://github.com/objectbased/whois
