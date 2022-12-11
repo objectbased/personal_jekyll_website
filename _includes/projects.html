@@ -1,6 +1,6 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
-    <li class="card" id="{{item.tag}}">
+    <li class="card {{item.tag}}" id="{{item.tag}}">
       <a href="{{ item.url }}">
         <span class="header">
           {{ item.title }}
