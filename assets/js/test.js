@@ -50,3 +50,6 @@ if (history.scrollRestoration) {
         window.scrollTo(0, 0);
     }
 }
+
+const header = document.getElementsByClassName("logo");
+header.scrollIntoView();
