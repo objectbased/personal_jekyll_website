@@ -146,6 +146,12 @@ p code, li code {
   color: var(--text);
   margin: 2em auto -4em auto;
   text-align: center;
+  animation: footer_fade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
+
   a {
     color: var(--text);
     text-decoration: none;
@@ -154,6 +160,15 @@ p code, li code {
   a:hover {
     color: var(--links);
   }
+}
+
+@keyframes footer_fade {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
 
 
@@ -426,23 +441,6 @@ ul.horizontal-list {
 }
 
 @keyframes projects_title_fade {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-   }
-}
-
-footer {
-  animation: footer_fade ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 1s;
-  opacity: 0;
-}
-
-@keyframes footer_fade {
   0% {
       opacity: 0;
   }
