@@ -204,6 +204,7 @@ ul.horizontal-list {
   display: none !important;
 
   .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px) !important;
   }
 
@@ -257,11 +258,6 @@ ul.horizontal-list {
       opacity: 1;
    }
 }
-
-//.skills imgz {
-//  display:inline;
-//  margin-right: 1em;
-//}
 
 .logo {
   display: flex;
