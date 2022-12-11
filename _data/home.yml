@@ -25,7 +25,7 @@ project_entries:
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
-  - title: Project 6
+  - title: Overwatch
     url: overview-post
     tag: ansible
-    desc: It also has a scalable vertical list (in case you need it)
+    desc: Collections of ansible playbooks and roles built over the years for software configuration, general automation, and more.
