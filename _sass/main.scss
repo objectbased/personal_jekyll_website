@@ -398,9 +398,9 @@ ul.horizontal-list {
 .button-filter:active {
   box-shadow: none;
   transform: translateY(0);
-  background-color: #666;
+  background-color: blue;
 }
 
 .show {
-  display: block;
+  display: block !important;
 }
