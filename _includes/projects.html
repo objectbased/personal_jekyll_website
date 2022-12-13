@@ -1,7 +1,7 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
+  <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
     <li class="card {{item.tag}}" id="{{item.tag}}">
-      <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
         <span class="header">
           {{ item.title }}
         </span>
@@ -9,7 +9,7 @@
         <p class="body">
           {{ item.desc }}
         </p>
-      </a>
     </li>
+  </a>
   {% endfor %}
 </ul>
