@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-html { height: 100%; }
+html { 
+  height: 100%;
+}
 
 header {
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -31,14 +33,17 @@ pre, code {
   font-size: 0.9rem;
 }
 
-h2, h3, h4, h5 { margin-top: 1.5em; }
+h2, h3, h4, h5 { 
+  margin-top: 1.5em;
+}
 
-hr { margin: 1em 0; }
+hr { 
+  margin: 1em 0;
+}
 
 hr.page-break {
   text-align: center;
   border: 0;
-
   &:before { content: '-----' }
   &:after { content: attr(data-content) '-----' }
 }
