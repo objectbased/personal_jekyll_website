@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-html { 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+html {
   height: 100%;
 }
 
 header {
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   animation: logo_fade_in ease 8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -14,36 +13,40 @@ header {
 
 @keyframes logo_fade_in {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
-
 body {
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 2;
   margin: 0;
   min-height: 100%;
 }
+
 pre, code {
   font-family: "Roboto Mono", "Courier New", monospace;
   font-size: 0.9rem;
 }
 
-h2, h3, h4, h5 { 
+h2, h3, h4, h5 {
   margin-top: 1.5em;
 }
 
-hr { 
+hr {
   margin: 1em 0;
 }
 
-p { margin: 1em 0; }
+p {
+  margin: 1em 0;
+}
 
-li { margin: 0.4em 0; }
+li {
+  margin: 0.4em 0;
+}
 
 .container {
   max-width: 1000px;
@@ -62,24 +65,24 @@ blockquote {
   font-style: italic;
   border: thin solid black;
   padding: 1em;
-
-  p { margin: 0; }
+}
+blockquote p {
+  margin: 0;
 }
 
 html {
-    --bg: #FFF;
-    --bg-secondary: #f3f4f6;
-    --headings: #1e293b;
-    --text: #374151;
-    --text-secondary: #6b7280;
-    --links: #6366f1;
-    --highlight: #FFECB2; // light yellow
-    --code-text: #9D174D;
-    --share-text: #999;
+  --bg: #FFF;
+  --bg-secondary: #f3f4f6;
+  --headings: #1e293b;
+  --text: #374151;
+  --text-secondary: #6b7280;
+  --links: #6366f1;
+  --highlight: #FFECB2;
+  --code-text: #9D174D;
+  --share-text: #999;
 }
-// -------------- THEME SWITCHER -------------- //
 
-html[data-theme="dark"]  {
+html[data-theme=dark] {
   --headings: #ffffff;
   --links: #91A7FF;
   --highlight: #41C7C7;
@@ -89,17 +92,19 @@ html[data-theme="dark"]  {
   --text-secondary: #9CA3AF;
   --code-text: #91A7FF;
   --share-text: #C4C4C4;
-};
+}
 
 html, body {
-    background-color: var(--bg);
-    color: var(--text);
+  background-color: var(--bg);
+  color: var(--text);
 }
+
 h1, h2, h3, h4, h5, h6 {
-    color: var(--headings);
+  color: var(--headings);
 }
+
 p, strong, b, em, small, li, hr, table, figcaption {
-    color: var(--text);
+  color: var(--text);
 }
 
 .highlight, pre code, blockquote {
@@ -110,6 +115,7 @@ blockquote {
   background-color: var(--bg-secondary);
   border: 1px var(--border) solid;
 }
+
 a {
   color: var(--links);
   text-decoration: none;
@@ -142,61 +148,53 @@ p code, li code {
   animation: footer_fade ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   opacity: 0;
-
-  a {
-    color: var(--text);
-    text-decoration: none;
-    font-weight: bold;
-  }
-  a:hover {
-    color: var(--links);
-  }
+}
+.credits a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+}
+.credits a:hover {
+  color: var(--links);
 }
 
 @keyframes footer_fade {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
-
-
 ul.horizontal-list {
   display: flex;
-  //justify-content: space-between;
   margin-left: -40px;
   flex-wrap: wrap;
   animation: projects_fade ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   opacity: 0;
-
-  li {
-    display:inline;
-    margin-right: 1em;
-  }
-
-  li a {
-    text-decoration: none;
-    font-weight: normal
-  }
-
+}
+ul.horizontal-list li {
+  display: inline;
+  margin-right: 1em;
+}
+ul.horizontal-list li a {
+  text-decoration: none;
+  font-weight: normal;
 }
 
 @keyframes projects_fade {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
-
 .card {
   padding: 1em;
   border: 2px var(--text) solid;
@@ -211,22 +209,17 @@ ul.horizontal-list {
   margin-bottom: 0.8em;
   border-radius: 0.5em;
   display: none !important;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  
-
-  .header {
-    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
-    color: #ffffff;
-  }
-
-  .body {
-    font-size: 0.8em;
-  }
-
-  hr {
-    margin: 0.5em 0;
-  }
-
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.card .header {
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  color: #ffffff;
+}
+.card .body {
+  font-size: 0.8em;
+}
+.card hr {
+  margin: 0.5em 0;
 }
 
 /* Responsive cards - one column layout on small screens */
@@ -236,14 +229,11 @@ ul.horizontal-list {
     display: none;
     margin-bottom: 1em;
     margin-left: 1em;
-    a, .header {
-      font-size: 1em;
-    }
+  }
+  ul.horizontal-list li.card a, ul.horizontal-list li.card .header {
+    font-size: 1em;
   }
 }
-
-
-
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -252,19 +242,18 @@ ul.horizontal-list {
   animation: skills_fade ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   opacity: 0;
 }
 
 @keyframes skills_fade {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
-
 .logo {
   display: flex;
   flex-direction: column;
@@ -275,9 +264,8 @@ ul.horizontal-list {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  //border: 1px solid white;
-  animation-delay: .5s;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  animation-delay: 0.5s;
 }
 
 .logo img {
@@ -285,22 +273,17 @@ ul.horizontal-list {
   height: 200px;
 }
 
-
 .item img {
   width: 60px;
   height: 60px;
   text-align: center;
 }
 
-
-
 .item {
   text-align: center;
   display: block;
   background-color: transparent;
-  //border: 1px solid white;
 }
-
 
 .button-filter {
   appearance: none;
@@ -311,7 +294,7 @@ ul.horizontal-list {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
@@ -322,7 +305,7 @@ ul.horizontal-list {
   padding: 1px 22px;
   text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -359,13 +342,12 @@ ul.horizontal-list {
 
 @keyframes projects_title_fade {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
-
 .card:hover {
   transform: translateY(-4px) !important;
 }
@@ -373,3 +355,5 @@ ul.horizontal-list {
 .cardlinks {
   display: flex;
 }
+
+/*# sourceMappingURL=styles.css.map */
