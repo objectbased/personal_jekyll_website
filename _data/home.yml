@@ -20,7 +20,7 @@ project_entries:
   - title: ARIN Whois
     url: https://github.com/objectbased/whois
     tag: python
-    desc: Python Code for using ARIN’s Whois RESTful web service to pull network and organization records. CIDR, Name, ASN, Organization and more.
+    desc: Python script for using ARIN’s Whois RESTful web service to pull network and organization records. CIDR, Name, ASN, Organization and more.
     access: Public
 
   - title: Jekyll Website
