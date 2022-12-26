@@ -23,10 +23,10 @@ project_entries:
     desc: Python Code for using ARIN’s Whois RESTful web service to pull network and organization records. CIDR, Name, ASN, Organization and more.
     access: Public
 
-  - title: Project 5
-    url: overview-post
-    tag: terraform
-    desc: Moonwalk also has horizontal list (used in header and footer)
+  - title: Jekyll Website
+    url: https://github.com/objectbased/personal_jekyll_website
+    tag: github
+    desc: Personal portfolio built as a static page created using Jekyll.
     access: Public
 
   - title: ansible-main
