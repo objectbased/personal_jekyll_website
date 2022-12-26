@@ -1,4 +1,8 @@
+
+
 filterSelection("all")
+
+
 
 function filterSelection(c) {
   var x, i;
@@ -30,6 +34,8 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementsByClassName("skills");

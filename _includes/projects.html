@@ -2,6 +2,7 @@
   {% for item in include.collection %}
   <a class="cardlinks" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
     <li class="card {{item.tag}}" id="{{item.tag}}">
+      <span class="access">{{ item.access}}</span>
         <span class="header">
           {{ item.title }}
         </span>

@@ -3,31 +3,37 @@ project_entries:
     url: https://github.com/objectbased/splunkpstool
     tag: splunk
     desc: Powershell script that provides the ability to download various Splunk Universal Forwarder packages along with the ability to locally install on a local machine.
+    access: Public
 
   - title: ThreatAPIs
     url: https://github.com/objectbased/ThreatAPIs
     tag: python
     desc: This Python script makes HTTP requests to multiple open source threat intelligence blocklists and aggregates the details together into dictionary objects for further searching.
+    access: Public
 
   - title: Splunk Nix Installer
     url: https://github.com/objectbased/splunkufnixinstaller
     tag: splunk bash
     desc: Bash script for downloading and installing the Splunk Universal Forwrader on a NIX host.
+    access: Public
 
   - title: ARIN Whois
     url: https://github.com/objectbased/whois
     tag: python
     desc: Python Code for using ARIN’s Whois RESTful web service to pull network and organization records. CIDR, Name, ASN, Organization and more.
+    access: Public
 
   - title: Project 5
     url: overview-post
     tag: terraform
     desc: Moonwalk also has horizontal list (used in header and footer)
+    access: Public
 
   - title: ansible-main
     url: https://github.com/objectbased/ansible
     tag: ansible
     desc: Collections of ansible playbooks and roles built over the years for software configuration, general automation, and more.
+    access: Private
 
 footer_entries:
   - title: GitHub
