@@ -37,7 +37,7 @@ project_entries:
     
   - title: Splunk Terraform
     url: https://github.com/objectbased/splunk-terraform
-    tag: terraform
+    tag: terraform aws
     desc: Terraform modules for generating a basic VPC/EC2 setup for a single Splunk node. Used for general testing of new applications/versions/code on a Splunk Enterprise platform.
     access: Public
 
