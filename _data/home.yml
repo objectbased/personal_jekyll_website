@@ -34,6 +34,12 @@ project_entries:
     tag: ansible
     desc: Collections of ansible playbooks and roles built over the years for software configuration, general automation, and more.
     access: Private
+    
+  - title: Splunk Single Testing Instance
+    url: https://github.com/objectbased/splunk-terraform
+    tag: terraform
+    desc: Terraform modules for generating a basic VPC/EC2 setup for a single Splunk node. Used for general testing of new applications/versions/code on a Splunk Enterprise platform.
+    access: Public
 
 footer_entries:
   - title: GitHub
