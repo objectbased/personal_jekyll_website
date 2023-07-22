@@ -37,8 +37,14 @@ project_entries:
     
   - title: Splunk Terraform
     url: https://github.com/objectbased/splunk-terraform
-    tag: terraform aws
+    tag: terraform aws splunk
     desc: Terraform modules for generating a basic VPC/EC2 setup for a single Splunk node. Used for general testing of new applications/versions/code on a Splunk Enterprise platform.
+    access: Public
+    
+  - title: urlscan.io CLI Tool
+    url: https://github.com/objectbased/urlscan-py
+    tag: python
+    desc: urlscan.io CLI tool used for cyber research and investigations on potential malware/phishing domains.
     access: Public
 
 footer_entries:
