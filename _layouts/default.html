@@ -4,6 +4,11 @@
   <body>
     <main class="page-content aria-label="Content">
       <div class="container">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}">Home</a> ·
+          <a href="{{ '/about/' | relative_url }}">About</a> ·
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </nav>
         {{ content }}
         <div class="credits">
           <a>&copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://github.com/objectbased" target="_blank" rel="noopener noreferrer">GitHub</a>

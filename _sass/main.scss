@@ -268,7 +268,7 @@ ul.horizontal-list {
 .logo {
   display: flex;
   flex-direction: column;
-  margin-top: -30px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -278,6 +278,46 @@ ul.horizontal-list {
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   //border: 1px solid white;
   animation-delay: .5s;
+}
+
+.page-header,
+.page-copy {
+  animation: logo_fade_in ease 8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.page-header .eyebrow {
+  display: inline-block;
+  margin: 0 0 0.5rem;
+  padding: 0.15rem 0.65rem;
+  border: 1px solid rgba(145, 167, 255, 0.35);
+  border-radius: 999px;
+  background-color: rgba(145, 167, 255, 0.08);
+  color: var(--links);
+  font-family: "Roboto Mono", "Courier New", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+}
+.site-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.site-nav a {
+  color: var(--text-secondary);
+  transition: color 180ms ease;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  color: var(--links);
 }
 
 .logo img {
